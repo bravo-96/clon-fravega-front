@@ -1,10 +1,11 @@
-import { Carousel, Header } from './layout';
+import { Carousel, Header, PayInfo } from './layout';
 
 const FravegaApp = () => {
    return (
       <>
          <Header />
          <Carousel />
+         <PayInfo />
       </>
    );
 };
