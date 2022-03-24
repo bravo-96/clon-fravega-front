@@ -4,7 +4,7 @@ import { fravegaLogo } from '../../constants/images';
 const width = '163px';
 const height = '25px';
 
-const LogoContainer = styled.span`
+const LogoContainer = styled.div`
    background-image: url(${fravegaLogo});
    background-repeat: no-repeat;
    background-size: contain;

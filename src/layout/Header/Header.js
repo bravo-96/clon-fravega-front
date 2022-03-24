@@ -15,6 +15,10 @@ const HeaderContent = styled.div`
    align-items: center;
    grid-template-columns: min-content auto min-content min-content;
 
+   a {
+      display: block;
+   }
+
    form {
       width: 100%;
       max-width: 600px;
@@ -31,7 +35,9 @@ const Header = () => {
       <header>
          <UpperLinks />
          <HeaderContent>
-            <Logo margin="0 1rem 0 0" />
+            <a href="/">
+               <Logo margin="0 1rem 0 0" />
+            </a>
             <SearchBar />
             <Btn icon={<FaRegUserCircle size={'1.5rem'} />} text="Mi cuenta" />
             <Btn icon={<FaShoppingCart size={'1.5rem'} />} />

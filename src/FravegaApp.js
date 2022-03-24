@@ -1,9 +1,10 @@
-import { Header } from './layout';
+import { Carousel, Header } from './layout';
 
 const FravegaApp = () => {
    return (
       <>
          <Header />
+         <Carousel />
       </>
    );
 };

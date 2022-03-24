@@ -1,3 +1,4 @@
-import { Header } from './Header';
+import Carousel from './Carousel';
+import Header from './Header';
 
-export { Header };
+export { Header, Carousel };
