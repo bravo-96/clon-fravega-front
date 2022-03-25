@@ -10,6 +10,19 @@ import payMethods from '../assets/img/pay-methods.png';
 import fravegaCreditosPng from '../assets/img/fravega-creditos.png';
 import fravegaEnvios from '../assets/img/fravega-envios.png';
 
+import catTelevisores from '../assets/img/categories/catTelevisores.webp';
+import catCelulares from '../assets/img/categories/catCelulares.webp';
+import catClimatizacion from '../assets/img/categories/catClimatizacion.webp';
+import catColchonesSommiers from '../assets/img/categories/catColchonesSommiers.webp';
+import catLavarropasLavavajillas from '../assets/img/categories/catLavarropasLavavajillas.webp';
+import catNotebook from '../assets/img/categories/catNotebook.webp';
+import catHeladeras from '../assets/img/categories/catHeladeras.webp';
+import catHerrElectricas from '../assets/img/categories/catHerrElectricas.webp';
+import catAguaCaliente from '../assets/img/categories/catAguaCaliente.webp';
+import catCocinas from '../assets/img/categories/catCocinas.webp';
+import catPequenosElec from '../assets/img/categories/catPequenosElec.webp';
+import catCuidadoPersonal from '../assets/img/categories/catCuidadoPersonal.webp';
+
 export {
    fravegaCreditos,
    fravegaLogo,
@@ -22,4 +35,16 @@ export {
    payMethods,
    fravegaCreditosPng,
    fravegaEnvios,
+   catTelevisores,
+   catCelulares,
+   catClimatizacion,
+   catColchonesSommiers,
+   catLavarropasLavavajillas,
+   catNotebook,
+   catHeladeras,
+   catHerrElectricas,
+   catAguaCaliente,
+   catCocinas,
+   catPequenosElec,
+   catCuidadoPersonal,
 };

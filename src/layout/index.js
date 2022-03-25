@@ -1,5 +1,6 @@
 import Carousel from './Carousel';
 import Header from './Header';
-import PayInfo from './PayInfo/PayInfo';
+import PayInfo from './PayInfo';
+import Categories from './Categories';
 
-export { Header, Carousel, PayInfo };
+export { Header, Carousel, PayInfo, Categories };

@@ -1,4 +1,9 @@
-import { Carousel, Header, PayInfo } from './layout';
+import { Carousel, Categories, Header, PayInfo } from './layout';
+import styled from 'styled-components';
+
+const Main = styled.main`
+   background-color: #eee;
+`;
 
 const FravegaApp = () => {
    return (
@@ -6,6 +11,9 @@ const FravegaApp = () => {
          <Header />
          <Carousel />
          <PayInfo />
+         <Main>
+            <Categories />
+         </Main>
       </>
    );
 };
