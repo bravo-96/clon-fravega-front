@@ -8,12 +8,19 @@ const SplideStyled = styled(Splide)`
    padding: 3rem 0;
 
    .splide__arrow {
-      background: rgba(0, 0, 0, 0.2);
+      background: none;
+      transform: scale(1.5, 2.5);
+      filter: drop-shadow(2px 0 white);
+      
+      &[disabled] {
+         display: none;
+      }
    }
 `;
 
 const SlideStyled = styled(SplideSlide)`
    width: 100%;
+   text-align: center;
 
    img {
       width: 8rem;
@@ -58,6 +65,8 @@ const Categories = () => {
                gap: '1px',
                perPage: 6,
                pagination: false,
+               arrowPath:
+                  'M5.96253 38H1.77986L33.6393 19L1.86885 0H6.05152L38 19L5.96253 38Z',
             }}
          >
             {categoriesData.map((catg, idx) => {

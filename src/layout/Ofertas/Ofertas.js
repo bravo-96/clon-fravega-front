@@ -32,8 +32,13 @@ const SplideStyled = styled(Splide)`
    padding: 1rem 0 0;
 
    .splide__arrow {
-      background: rgba(255, 255, 255, 0.3);
-      transform: translateY(-220%) scale(2);
+      background: none;
+      transform: scale(1.5, 2.5);
+      filter: drop-shadow(2px 0 white);
+
+      &[disabled] {
+         display: none;
+      }
    }
 
    a {
@@ -55,10 +60,14 @@ const Ofertas = () => {
             <SectionName>ofertas por tiempo limitado</SectionName>
             <SplideStyled
                options={{
-                  speed: 1000,
+                  speed: 500,
                   gap: '0.5rem',
                   perPage: 4,
+                  perMove: 2,
                   pagination: false,
+                  lazyLoad: 'nearby',
+                  arrowPath:
+                     'M5.96253 38H1.77986L33.6393 19L1.86885 0H6.05152L38 19L5.96253 38Z',
                }}
             >
                {products.map((catg, idx) => {

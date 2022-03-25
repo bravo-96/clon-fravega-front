@@ -7,7 +7,13 @@ import '@splidejs/splide/dist/css/splide.min.css';
 
 const SplideStyled = styled(Splide)`
    .splide__arrow {
-      background: rgba(255, 255, 255, 0.2);
+      background: none;
+      transform: scale(1.5, 2.5);
+      filter: drop-shadow(2px 0 white);
+
+      &[disabled] {
+         display: none;
+      }
    }
 
    .splide__pagination {
@@ -43,10 +49,11 @@ const Carousel = () => {
          <SplideStyled
             options={{
                autoWidth: true,
-               lazyLoad: 'nearby',
                easing: 'linear',
                type: 'loop',
-               speed: 500,
+               arrowPath:
+                  'M5.96253 38H1.77986L33.6393 19L1.86885 0H6.05152L38 19L5.96253 38Z',
+               speed: 1000,
                interval: 5000,
                gap: '0',
                autoplay: true,

@@ -133,7 +133,7 @@ const CardProduct = ({
    return (
       <Container {...border}>
          <Header {...envioGratis} {...cuotas} {...planCanje}>
-            <img src={img} alt={`Imagen de ${titulo}`} />
+            <img data-splide-lazy={img} alt={`Imagen de ${titulo}`} />
             {envioGratis && (
                <img src={envioGratisPng} alt="" className="envio-gratis" />
             )}
@@ -153,10 +153,12 @@ const CardProduct = ({
 
          <Body>
             <h4>{titulo}</h4>
-            <DiscountWrap>
-               <p>{precio.toLocaleString()}</p>
-               <p>{Math.floor(descuento * 100)}% OFF</p>
-            </DiscountWrap>
+            {descuento !== 0 && (
+               <DiscountWrap>
+                  <p>{precio.toLocaleString()}</p>
+                  <p>{Math.floor(descuento * 100)}% OFF</p>
+               </DiscountWrap>
+            )}
             <SalePrice>&#36;{getPrecioFinal(precio, descuento)}</SalePrice>
             <Info {...enStock}>
                <div>Llega GRATIS mañana</div>
