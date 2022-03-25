@@ -9,7 +9,14 @@ import imgCarousel_6 from '../assets/img/image-carousel-6.webp';
 import payMethods from '../assets/img/pay-methods.png';
 import fravegaCreditosPng from '../assets/img/fravega-creditos.png';
 import fravegaEnvios from '../assets/img/fravega-envios.png';
+import cuotas3 from '../assets/img/cuotas3.png';
+import cuotas6 from '../assets/img/cuotas6.png';
+import cuotas12 from '../assets/img/cuotas12.png';
+import cuotas18 from '../assets/img/cuotas18.png';
+import envioGratis from '../assets/img/envioGratis.png';
+import planCanje from '../assets/img/planCanje.png';
 
+// Categorias
 import catTelevisores from '../assets/img/categories/catTelevisores.webp';
 import catCelulares from '../assets/img/categories/catCelulares.webp';
 import catClimatizacion from '../assets/img/categories/catClimatizacion.webp';
@@ -22,6 +29,18 @@ import catAguaCaliente from '../assets/img/categories/catAguaCaliente.webp';
 import catCocinas from '../assets/img/categories/catCocinas.webp';
 import catPequenosElec from '../assets/img/categories/catPequenosElec.webp';
 import catCuidadoPersonal from '../assets/img/categories/catCuidadoPersonal.webp';
+
+// Productos
+import tv1 from '../assets/img/products/tv1.webp';
+import cel1 from '../assets/img/products/cel1.webp';
+import bordeadora1 from '../assets/img/products/bordeadora1.webp';
+import batidora1 from '../assets/img/products/batidora1.webp';
+import heladera1 from '../assets/img/products/heladera1.webp';
+import lavavajillas1 from '../assets/img/products/lavavajillas1.webp';
+import sillon1 from '../assets/img/products/sillon1.webp';
+import cama1 from '../assets/img/products/cama1.webp';
+import notebook1 from '../assets/img/products/notebook1.webp';
+import cocina1 from '../assets/img/products/cocina1.webp';
 
 export {
    fravegaCreditos,
@@ -47,4 +66,20 @@ export {
    catCocinas,
    catPequenosElec,
    catCuidadoPersonal,
+   tv1,
+   cel1,
+   batidora1,
+   heladera1,
+   bordeadora1,
+   notebook1,
+   cama1,
+   cocina1,
+   sillon1,
+   lavavajillas1,
+   cuotas3,
+   cuotas6,
+   cuotas12,
+   cuotas18,
+   envioGratis,
+   planCanje,
 };
