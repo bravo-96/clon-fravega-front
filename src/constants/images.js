@@ -15,6 +15,9 @@ import cuotas12 from '../assets/img/cuotas12.png';
 import cuotas18 from '../assets/img/cuotas18.png';
 import envioGratis from '../assets/img/envioGratis.png';
 import planCanje from '../assets/img/planCanje.png';
+import promocionImg1 from '../assets/img/promocionImg1.png';
+import promocionImg2 from '../assets/img/promocionImg2.png';
+import teLoLlevamos from '../assets/img/teLoLlevamos.png';
 
 // Categorias
 import catTelevisores from '../assets/img/categories/catTelevisores.webp';
@@ -82,4 +85,7 @@ export {
    cuotas18,
    envioGratis,
    planCanje,
+   promocionImg1,
+   promocionImg2,
+   teLoLlevamos,
 };

@@ -112,7 +112,7 @@ const Info = styled.div`
    }
 `;
 
-const CardProduct = ({
+const ProductCard = ({
    img,
    titulo,
    precio,
@@ -169,4 +169,4 @@ const CardProduct = ({
    );
 };
 
-export default CardProduct;
+export default ProductCard;

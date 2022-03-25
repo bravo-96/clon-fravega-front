@@ -2,7 +2,7 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 import styled from 'styled-components';
 
-import CardProduct from '../../components/blocks/CardProduct/CardProduct';
+import ProductCard from '../../components/blocks/ProductCard/ProductCard';
 import { products } from '../../constants/data';
 
 const Container = styled.section`
@@ -53,7 +53,7 @@ const SlideStyled = styled(SplideSlide)`
    width: 100%;
 `;
 
-const Ofertas = () => {
+const Offers = () => {
    return (
       <Container>
          <Wrap>
@@ -74,7 +74,7 @@ const Ofertas = () => {
                   return (
                      <SlideStyled key={idx}>
                         <a href="/">
-                           <CardProduct
+                           <ProductCard
                               key={catg.id}
                               img={catg.img}
                               titulo={catg.titulo}
@@ -96,4 +96,4 @@ const Ofertas = () => {
    );
 };
 
-export default Ofertas;
+export default Offers;
