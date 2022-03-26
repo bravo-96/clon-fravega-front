@@ -1,4 +1,12 @@
-import { Carousel, Categories, Header, Offers, PayInfo, Promo } from './layout';
+import {
+   Carousel,
+   Categories,
+   Features,
+   Header,
+   Offers,
+   PayInfo,
+   Promo,
+} from './layout';
 import styled from 'styled-components';
 
 const Main = styled.main`
@@ -15,6 +23,7 @@ const FravegaApp = () => {
             <Categories />
             <Offers />
             <Promo />
+            <Features />
          </Main>
       </>
    );

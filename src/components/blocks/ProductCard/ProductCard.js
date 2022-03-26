@@ -9,12 +9,14 @@ import {
 } from '../../../constants/images';
 
 const Container = styled.div`
+   padding: 1rem;
    height: 100%;
    text-align: center;
+   background-color: #fff;
+   transition: box-shadow 0.3s ease;
 
-   ${({ border }) => border && `border: ${border};`}
-
-   padding: 1rem;
+   ${({ hoverEffect }) =>
+      hoverEffect && `&:hover{box-shadow: 0 0 0.3rem #999;}`}
 `;
 const Header = styled.div`
    height: 50%;
@@ -121,7 +123,7 @@ const ProductCard = ({
    cuotas,
    envioGratis,
    planCanje,
-   border,
+   hoverEffect,
 }) => {
    const getPrecioFinal = (precioStock, descuento) => {
       const precioFinal =
@@ -131,7 +133,7 @@ const ProductCard = ({
    };
 
    return (
-      <Container {...border}>
+      <Container hoverEffect={hoverEffect}>
          <Header {...envioGratis} {...cuotas} {...planCanje}>
             <img data-splide-lazy={img} alt={`Imagen de ${titulo}`} />
             {envioGratis && (
