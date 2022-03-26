@@ -7,13 +7,12 @@ import { products } from '../../constants/data';
 
 const Container = styled.section`
    max-width: 1280px;
-   margin: 0 auto 2rem;
-   padding: 1rem;
+   margin: 0 auto 3rem;
 
    h2 {
       font-size: 1.5;
       font-weight: bolder;
-      margin: 0 0 1rem;
+      margin: 0 1rem 1rem;
    }
 `;
 
@@ -41,10 +40,10 @@ const SlideStyled = styled(SplideSlide)`
    width: 100%;
 `;
 
-const Features = () => {
+const Features = ({ tituloSeccion }) => {
    return (
       <Container>
-         <h2>Aprovechá las ofertas destacadas</h2>
+         <h2>{tituloSeccion}</h2>
          <SplideStyled
             options={{
                speed: 500,

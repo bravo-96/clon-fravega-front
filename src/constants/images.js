@@ -45,6 +45,11 @@ import cama1 from '../assets/img/products/cama1.webp';
 import notebook1 from '../assets/img/products/notebook1.webp';
 import cocina1 from '../assets/img/products/cocina1.webp';
 
+// Banners
+import bannerImg1 from '../assets/img/bannerImg1.png';
+import bannerImg2 from '../assets/img/bannerImg2.jpg';
+import bannerImg3 from '../assets/img/bannerImg3.jpg';
+
 export {
    fravegaCreditos,
    fravegaLogo,
@@ -88,4 +93,7 @@ export {
    promocionImg1,
    promocionImg2,
    teLoLlevamos,
+   bannerImg1,
+   bannerImg2,
+   bannerImg3,
 };
