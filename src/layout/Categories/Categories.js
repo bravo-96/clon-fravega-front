@@ -11,7 +11,7 @@ const SplideStyled = styled(Splide)`
       background: none;
       transform: scale(1.5, 2.5);
       filter: drop-shadow(2px 0 white);
-      
+
       &[disabled] {
          display: none;
       }
@@ -23,14 +23,13 @@ const SlideStyled = styled(SplideSlide)`
    text-align: center;
 
    img {
-      width: 8rem;
-      height: 8rem;
+      width: 9rem;
+      height: 9rem;
       background-color: #fff;
       border-radius: 50%;
    }
    a {
       cursor: pointer;
-      transition: box-shadow 0.3s ease;
 
       color: #333;
       text-decoration: none;
@@ -39,8 +38,14 @@ const SlideStyled = styled(SplideSlide)`
       flex-direction: column;
       align-items: center;
 
+      padding-top: 0.5rem;
+
+      img {
+         transition: box-shadow 0.5s ease;
+      }
+
       &:hover img {
-         box-shadow: 0 0 0.5rem #ccc;
+         box-shadow: 0 0 0.7rem #bbb;
       }
 
       p {
@@ -62,7 +67,6 @@ const Categories = () => {
          <SplideStyled
             options={{
                speed: 500,
-               gap: '1px',
                perPage: 6,
                pagination: false,
                arrowPath:

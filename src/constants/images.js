@@ -49,6 +49,8 @@ import cocina1 from '../assets/img/products/cocina1.webp';
 import bannerImg1 from '../assets/img/bannerImg1.png';
 import bannerImg2 from '../assets/img/bannerImg2.jpg';
 import bannerImg3 from '../assets/img/bannerImg3.jpg';
+import bannerImg4 from '../assets/img/bannerImg4.webp';
+import bannerImg5 from '../assets/img/bannerImg5.webp';
 
 export {
    fravegaCreditos,
@@ -96,4 +98,6 @@ export {
    bannerImg1,
    bannerImg2,
    bannerImg3,
+   bannerImg4,
+   bannerImg5,
 };

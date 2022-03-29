@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { teLoLlevamos } from '../../../constants/images';
+import { BtnOutline } from '../../elements/Btn';
 
 const Container = styled.div`
    padding: 1rem;
@@ -53,25 +54,6 @@ const Content = styled.div`
    }
 `;
 
-const Btn = styled.button`
-   width: fit-content;
-   background-color: #fff;
-   padding: 1rem 2rem;
-   border: 1px solid var(--violet);
-   color: var(--violet);
-   border-radius: 5px;
-   font-size: 0.9rem;
-   font-weight: 600;
-   text-transform: uppercase;
-   cursor: pointer;
-   transition: 0.3s ease;
-   transition-property: color, background-color;
-
-   &:hover {
-      background-color: var(--violet);
-      color: #fff;
-   }
-`;
 
 const PromotionCard = ({ img, titulo, descripcion, colorTheme }) => {
    return (
@@ -82,7 +64,7 @@ const PromotionCard = ({ img, titulo, descripcion, colorTheme }) => {
                <img src={teLoLlevamos} alt="" />
                <h3>{titulo}</h3>
                <p>{descripcion}</p>
-               <Btn>Ver más</Btn>
+               <BtnOutline>Ver más</BtnOutline>
             </Content>
          </Container>
       </a>
