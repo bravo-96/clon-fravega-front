@@ -36,7 +36,7 @@ const Container = styled.div`
             
             > p.titulo {
                color: #fff;
-               padding: 0.5rem;
+               padding: 0.3rem;
                background-color: var(--magenta);
                text-transform: uppercase;
                width: max-content;

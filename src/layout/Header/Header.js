@@ -36,7 +36,7 @@ const Header = () => {
          <UpperLinks />
          <HeaderContent>
             <a href="/">
-               <Logo margin="0 1rem 0 0" />
+               <Logo margin="0 1rem 0 0"></Logo>
             </a>
             <SearchBar />
             <Btn icon={<FaRegUserCircle size={'1.5rem'} />} text="Mi cuenta" />

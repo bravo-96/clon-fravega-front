@@ -6,7 +6,8 @@ import Offers from './Offers';
 import Promo from './Promo';
 import Features from './Features';
 import Sale from './Sale';
-import SaleSecondary from './SaleSecondary/SaleSecondary';
+import SaleSecondary from './SaleSecondary';
+import Footer from './Footer';
 
 export {
    Header,
@@ -18,4 +19,5 @@ export {
    Features,
    Sale,
    SaleSecondary,
+   Footer,
 };

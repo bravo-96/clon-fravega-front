@@ -2,6 +2,7 @@ import {
    Carousel,
    Categories,
    Features,
+   Footer,
    Header,
    Offers,
    PayInfo,
@@ -13,6 +14,7 @@ import styled from 'styled-components';
 
 const Main = styled.main`
    background-color: #eee;
+   padding-bottom: 0.1px;
 `;
 
 const FravegaApp = () => {
@@ -29,12 +31,8 @@ const FravegaApp = () => {
             <Sale />
             <Features tituloSeccion="Todo lo Nuevo en Frávega. Hasta 40% OFF!" />
             <SaleSecondary />
-            <h4>awdawdawd</h4>
-            <h4>awdawdawd</h4>
-            <h4>awdawdawd</h4>
-            <h4>awdawdawd</h4>
-            <h4>awdawdawd</h4>
          </Main>
+         <Footer />
       </>
    );
 };

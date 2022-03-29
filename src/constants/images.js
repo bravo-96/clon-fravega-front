@@ -18,6 +18,9 @@ import planCanje from '../assets/img/planCanje.png';
 import promocionImg1 from '../assets/img/promocionImg1.png';
 import promocionImg2 from '../assets/img/promocionImg2.png';
 import teLoLlevamos from '../assets/img/teLoLlevamos.png';
+import award from '../assets/img/award.webp';
+import selloCace from '../assets/img/selloCace.webp';
+import dataFiscal from '../assets/img/dataFiscal.webp';
 
 // Categorias
 import catTelevisores from '../assets/img/categories/catTelevisores.webp';
@@ -100,4 +103,7 @@ export {
    bannerImg3,
    bannerImg4,
    bannerImg5,
+   award,
+   selloCace,
+   dataFiscal,
 };

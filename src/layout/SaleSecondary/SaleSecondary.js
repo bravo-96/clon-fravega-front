@@ -4,8 +4,8 @@ import { bannerImg4, bannerImg5 } from '../../constants/images';
 
 const Container = styled.section`
    max-width: 1280px;
-   margin: 0 auto 2rem;
-   padding: 0 1rem;
+   margin: 0 auto 1rem;
+   padding: 0 0.5rem;
 
    display: flex;
    gap: 2rem;
@@ -22,9 +22,9 @@ const SaleSecondary = () => {
          />
          <Banner
             img={bannerImg5}
-            descripcion="FITNESS y MOVILIDAD: Hasta 6 sin interés y envío gratis en productos seleccionados."
+            descripcion="Aprovechalas con hasta 35% off y envio gratis en Capital y GBA en seleccionados."
             orientacion="horizontal"
-            titulo="Hasta 50% OFF"
+            titulo="Útimal unidades"
          />
       </Container>
    );

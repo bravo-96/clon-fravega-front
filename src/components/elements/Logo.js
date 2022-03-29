@@ -4,7 +4,7 @@ import { fravegaLogo } from '../../constants/images';
 const width = '163px';
 const height = '25px';
 
-const LogoContainer = styled.div`
+export const LogoContainer = styled.div`
    background-image: url(${fravegaLogo});
    background-repeat: no-repeat;
    background-size: contain;
@@ -12,10 +12,8 @@ const LogoContainer = styled.div`
    min-height: ${height};
 
    ${({ margin }) => margin && `margin: ${margin};`}
+
+   ${({ sc }) => sc && `${sc}`}
 `;
 
-const Logo = ({ margin }) => {
-   return <LogoContainer margin={margin} />;
-};
-
-export default Logo;
+export default LogoContainer;
